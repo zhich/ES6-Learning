@@ -1,4 +1,8 @@
 /**
+ * 02 let const
+ */
+
+/**
  * var : 声明全局变量
  */
 var name = "zch";

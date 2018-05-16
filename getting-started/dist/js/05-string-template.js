@@ -47,3 +47,5 @@ document.write(tip.endsWith('帅哥一枚')); // true
  */
 
 document.write('zch'.repeat(3));
+
+// 还有很多 ...

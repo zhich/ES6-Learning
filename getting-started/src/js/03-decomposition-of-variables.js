@@ -28,15 +28,15 @@ console.log(t);
 let [xx = true] = [];
 console.log(xx); // true
 
-let [n, m = '帅逼'] = ['zch'];
-console.log(n + m); // zch帅逼
+let [n, m = '明年今日'] = ['zch'];
+console.log(n + m); // zch明年今日
 
 // undefined 相当于什么都没有，mm 是默认值。
-let [nn, mm = '帅逼'] = ['zch', undefined];
-console.log(nn + mm); // zch帅逼
+let [nn, mm = '明年今日'] = ['zch', undefined];
+console.log(nn + mm); // zch明年今日
 
 // null 相当于有值，但值为 null，所以 mmm 并没有取默认值，而是解构成了 null .
-let [nnn, mmm = '帅逼'] = ['zch', null];
+let [nnn, mmm = '明年今日'] = ['zch', null];
 console.log(nnn + mmm); // zchnull
 
 /**
@@ -50,7 +50,7 @@ let {
     bar
 } = {
     foo: 'zch',
-    bar: '帅逼~~'
+    bar: '明年今日~~'
 };
 console.log(foo + bar);
 

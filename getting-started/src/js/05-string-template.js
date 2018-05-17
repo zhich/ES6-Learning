@@ -5,12 +5,12 @@
 /**
  * 一、字符串模版
  */
-let zch = '帅哥';
-let tip = `我是${zch}，非常高兴认识你！</br>`;
+let zch = '明年今日';
+let tip = `${zch}，非常高兴认识你！</br>`;
 document.write(tip);
 
 
-tip = `我是<span style = 'color:red'>${zch}</span>，非常高兴认识你！</br>`;
+tip = `<span style = 'color:red'>${zch}</span>，非常高兴认识你！</br>`;
 document.write(tip);
 
 /**
@@ -27,8 +27,8 @@ document.write(result);
 /**
  * 1、查找是否存在
  */
-let name = '帅哥';
-tip = 'zch是帅哥一枚';
+let name = '明年';
+tip = 'zch明年今日';
 document.write(tip.includes(name)); // true
 
 /**
@@ -39,7 +39,7 @@ document.write(tip.startsWith('zch')); // true
 /**
  * 3、判断结尾是否存在
  */
-document.write(tip.endsWith('帅哥一枚')); // true
+document.write(tip.endsWith('明年今日')); // true
 
 /**
  * 四、复制字符串

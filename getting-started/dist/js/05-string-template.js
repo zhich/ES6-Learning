@@ -7,11 +7,11 @@
 /**
  * 一、字符串模版
  */
-var zch = '帅哥';
-var tip = '\u6211\u662F' + zch + '\uFF0C\u975E\u5E38\u9AD8\u5174\u8BA4\u8BC6\u4F60\uFF01</br>';
+var zch = '明年今日';
+var tip = zch + '\uFF0C\u975E\u5E38\u9AD8\u5174\u8BA4\u8BC6\u4F60\uFF01</br>';
 document.write(tip);
 
-tip = '\u6211\u662F<span style = \'color:red\'>' + zch + '</span>\uFF0C\u975E\u5E38\u9AD8\u5174\u8BA4\u8BC6\u4F60\uFF01</br>';
+tip = '<span style = \'color:red\'>' + zch + '</span>\uFF0C\u975E\u5E38\u9AD8\u5174\u8BA4\u8BC6\u4F60\uFF01</br>';
 document.write(tip);
 
 /**
@@ -28,8 +28,8 @@ document.write(result);
 /**
  * 1、查找是否存在
  */
-var name = '帅哥';
-tip = 'zch是帅哥一枚';
+var name = '明年';
+tip = 'zch明年今日';
 document.write(tip.includes(name)); // true
 
 /**
@@ -40,7 +40,7 @@ document.write(tip.startsWith('zch')); // true
 /**
  * 3、判断结尾是否存在
  */
-document.write(tip.endsWith('帅哥一枚')); // true
+document.write(tip.endsWith('明年今日')); // true
 
 /**
  * 四、复制字符串

@@ -45,21 +45,21 @@ console.log(xx); // true
 var _ref2 = ['zch'],
     n = _ref2[0],
     _ref2$ = _ref2[1],
-    m = _ref2$ === undefined ? '帅逼' : _ref2$;
+    m = _ref2$ === undefined ? '明年今日' : _ref2$;
 
-console.log(n + m); // zch帅逼
+console.log(n + m); // zch明年今日
 
 // undefined 相当于什么都没有，mm 是默认值。
 var nn = 'zch',
     _undefined = undefined,
-    mm = _undefined === undefined ? '帅逼' : _undefined;
+    mm = _undefined === undefined ? '明年今日' : _undefined;
 
-console.log(nn + mm); // zch帅逼
+console.log(nn + mm); // zch明年今日
 
 // null 相当于有值，但值为 null，所以 mmm 并没有取默认值，而是解构成了 null .
 var nnn = 'zch',
     _ref3 = null,
-    mmm = _ref3 === undefined ? '帅逼' : _ref3;
+    mmm = _ref3 === undefined ? '明年今日' : _ref3;
 
 console.log(nnn + mmm); // zchnull
 
@@ -71,7 +71,7 @@ console.log(nnn + mmm); // zchnull
  */
 var _foo$bar = {
   foo: 'zch',
-  bar: '帅逼~~'
+  bar: '明年今日~~'
 },
     foo = _foo$bar.foo,
     bar = _foo$bar.bar;

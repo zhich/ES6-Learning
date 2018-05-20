@@ -156,6 +156,6 @@ try {
 }
 
 var list = arr.entries();
-console.log(list.next().value);
-console.log(list.next().value);
-console.log(list.next().value);
+console.log(list.next().value); // [0, "z"]
+console.log(list.next().value); // [1, "c"]
+console.log(list.next().value); // [2, "h"]

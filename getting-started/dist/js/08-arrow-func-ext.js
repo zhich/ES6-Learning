@@ -57,6 +57,7 @@ console.log(add4.length);
 
 /**
  * 五、箭头函数
+ * 箭头函数中不可加 new，也就是说箭头函数不能当构造函数进行使用
  */
 /**
  * 1、简单使用
@@ -69,6 +70,7 @@ console.log(add5(1));
 
 /**
  * 2、{} 的使用
+ * 在箭头函数中，方法体内如果是两句话，那就需要在方法体外边加上 {} 括号
  */
 var add6 = function add6(a) {
   var b = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 2;

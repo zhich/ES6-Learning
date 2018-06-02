@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * 09 ES6中的函数和数组补漏
+ * 09 ES6 中的函数和数组补漏
  */
 
 /**
@@ -107,5 +107,6 @@ console.log(arr4.join('|')); // 输出 z|c|h
 
 /**
  * 2、toString() 方法
+ * 转换时只是是用逗号隔开了
  */
-console.log(arr4.toString());
+console.log(arr4.toString()); // 输出 z,c,h

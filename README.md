@@ -13,3 +13,4 @@
 - [07 ES6 中新增的数组知识](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/07-news-of-array.js)
 - [08 ES6 中的箭头函数和扩展](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/08-arrow-func-ext.js)
 - [09 ES6 中的函数和数组补漏](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/09-func-array.js)
+- [10 ES6 中对象](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/10-object.js)

@@ -15,3 +15,4 @@
 - [09 ES6 中的函数和数组补漏](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/09-func-array.js)
 - [10 ES6 中对象](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/10-object.js)
 - [11 Symbol 在对象中的作用](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/11-symbol.js)
+- [12 Set 和 WeakSet 数据结构](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/12-set-weakset.js)

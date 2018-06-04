@@ -40,7 +40,9 @@ console.log(obj[key]); // Android
 
 /**
  * 四、Symbol 对象元素的保护作用
+ * 在对象中有很多值，但是循环输出时，并不希望全部输出，那我们就可以使用 Symbol 进行保护。
  */
+// 没有进行保护的写法：
 obj = {
   name: 'zch',
   skill: 'Android',
@@ -50,6 +52,7 @@ for (var item in obj) {
   console.log(obj[item]);
 }
 
+// 现在我不想别人知道我的年龄，这时候我就可以使用 Symbol 来进行循环保护。
 obj = {
   name: 'zch',
   skill: 'Android'
@@ -60,4 +63,4 @@ for (var _item in obj) {
   console.log(obj[_item]);
 }
 console.log(obj); // {name: "zch", skill: "Android", Symbol(): 26}
-console.log(obj[age]);
+console.log(obj[age]); // 26

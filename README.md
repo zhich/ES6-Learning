@@ -16,5 +16,5 @@
 - [10 ES6 中对象](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/10-object.js)
 - [11 Symbol 在对象中的作用](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/11-symbol.js)
 - [12 Set 和 WeakSet 数据结构](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/12-set-weakset.js)
-- [map 数据结构](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/13-map.js)
+- [13 map 数据结构](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/13-map.js)
 - [14 用 Proxy 进行预处理](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/14-proxy.js)

@@ -1,10 +1,12 @@
 /**
  * 12 Set 和 WeakSet 数据结构
+ * 
  * Set 的数据结构是以数组的形式构建的。
  */
 
 /**
  * 一、Set 的声明
+ * 
  * Set 和 Array 的区别是 Set 不允许内部有重复的值，如果有只显示一个，相当于去重。虽然 Set 很像数组，但是他不是数组。
  */
 let setArr = new Set(['zch', 'Android', '安卓', 'zch', 1, '1']);
@@ -15,6 +17,7 @@ console.log(setArr); // {"zch", "Android", "安卓", 1, "1"}
  */
 /**
  * 1、追加 add：
+ * 
  * 在使用 Array 的时候，可以用 push 进行追加值，Set 稍有不同，它用更语义化的 add 进行追加
  */
 let set1 = new Set(['z', 'c', 'h'])
@@ -23,6 +26,7 @@ console.log(set1); // {"z", "c", "h", "明年今日"}
 
 /**
  * 2、删除 delete：
+ * 
  * 用 has 进行值的查找，返回的是 true 或者 false
  */
 let set2 = new Set(['z', 'c', 'h'])
@@ -31,6 +35,7 @@ console.log(set2); // {"z", "h"}
 
 /**
  * 3、查找 has：
+ * 
  * 用 has 进行值的查找，返回的是 true 或者 false
  */
 let set3 = new Set(['z', 'c', 1, '2', 'h']);
@@ -59,6 +64,7 @@ for (let item of set5) {
 
 /**
  * 2、size 属性
+ * 
  * size 属性可以获得 Set 值的数量
  */
 let set6 = new Set(['z', 'c', 'h', 1, '1', 1]);
@@ -72,6 +78,7 @@ set7.forEach((val) => console.log(val));
 
 /**
  * 4、WeakSet 的声明
+ * 
  * 这里需要注意的是，如果你直接在 new 的时候就放入值，将报错。
  */
 let weakObj = new WeakSet();

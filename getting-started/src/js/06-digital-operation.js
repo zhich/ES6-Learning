@@ -18,7 +18,9 @@ console.log(b); // 54
  *一、数字判断和转换
  */
 /**
- * 1、数字验证 Number.isFinite(xx) . 只要是数字，不论是浮点型还是整形都会返回 true，其他时候会返回 false
+ * 1、数字验证 Number.isFinite(xx)
+ * 
+ * 只要是数字，不论是浮点型还是整形都会返回 true，其他时候会返回 false
  */
 let a = 11 / 4;
 console.log(Number.isFinite(a)); // true
@@ -28,6 +30,7 @@ console.log(Number.isFinite(undefined)); // false
 
 /**
  * 2、NaN 验证
+ * 
  * NaN 是特殊的非数字，可以使用 Number.isNaN() 来进行验证。下边的代码控制台返回了 true
  */
 console.log(Number.isNaN(NaN)); // true

@@ -48,6 +48,7 @@ console.log(arr.find(function (value, index, arr) {
 
 /**
  * 四、fill() 实例方法
+ * 
  * fill() 也是一个实例方法，它的作用是把数组进行填充，它接收三个参数，第一个参数是填充的变量，第二个是开始填充的位置，第三个是填充到的位置。
  */
 arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -60,6 +61,7 @@ console.log(arr);
  */
 /**
  * 1、for…of 循环
+ * 
  * 这种形式比 ES5 的 for 循环要简单而且高效
  */
 arr = ['z', 'c', 'h'];
@@ -69,6 +71,7 @@ for (let item of arr) {
 
 /**
  * 2、for…of 数组索引
+ * 
  * 有时候开发中是需要数组的索引的，那我们可以使用下面的代码输出数组索引
  */
 for (let index of arr.keys()) {
@@ -82,6 +85,7 @@ for (let [index, val] of arr.entries()) {
 
 /**
  * 六、entries() 实例方法
+ * 
  * entries() 实例方式生成的是 Iterator 形式的数组，那这种形式的好处就是可以让我们在需要时用 next() 手动跳转到下一个值
  */
 let list = arr.entries();

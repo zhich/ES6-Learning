@@ -18,3 +18,6 @@
 - [12 Set 和 WeakSet 数据结构](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/12-set-weakset.js)
 - [13 map 数据结构](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/13-map.js)
 - [14 用 Proxy 进行预处理](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/14-proxy.js)
+- [15 promise 对象的使用](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/15-promise.js)
+- [16 class 类的使用](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/16-class.js)
+- [17 模块化操作](https://github.com/zhich/es6-learn/blob/master/getting-started/src/js/17-modular.js)

@@ -3,7 +3,8 @@
  */
 
 /**
- * 一、声明Symbol
+ * 一、声明 Symbol
+ * 
  * 先回顾一下数据类型，在最后再看看 Symbol 如何声明，并进行一个数据类型的判断。
  */
 var a = new String;
@@ -24,6 +25,7 @@ console.log(g.toString()); // 打印黑色字体 Symbol(zch)
 
 /**
  * 三、Symbol 在对象中的应用
+ * 
  * 用 Symbol 构建对象的 Key，并调用和赋值。
  */
 var key = Symbol();
@@ -36,6 +38,7 @@ console.log(obj[key]); // Android
 
 /**
  * 四、Symbol 对象元素的保护作用
+ * 
  * 在对象中有很多值，但是循环输出时，并不希望全部输出，那我们就可以使用 Symbol 进行保护。
  */
 // 没有进行保护的写法：

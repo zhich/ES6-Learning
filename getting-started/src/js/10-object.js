@@ -4,6 +4,7 @@
 
 /**
  * 一、对象赋值
+ * 
  * ES6 允许把声明的变量直接赋值给对象。
  */
 let name = 'zch';
@@ -16,6 +17,7 @@ console.log(obj); // {name: "zch", skill: "Android"}
 
 /**
  * 二、对象 Key 值构建
+ * 
  * 有时候我们会在后台取出 key 值，而不是我们前台定义好的，这时候我们如何构建我们的 key 值呢？
  * 可以用[ ] 的形式，进行对象的构建。
  */
@@ -27,6 +29,7 @@ console.log(obj.skill); // Android
 
 /**
  * 三、自定义对象方法
+ * 
  * 对象方法就是把对象中的属性，用匿名函数的形式变成方法。这个在以前就有应用，这里只是简单的复习一下。
  */
 obj = {
@@ -61,6 +64,7 @@ console.log(Object.is(obj1.name, obj2.name)); // true
 
 /**
  * 3、=== 和 is方法的区别
+ * 
  * === 为同值相等，is() 为严格相等。
  */
 console.log('------------------------------');
@@ -78,6 +82,7 @@ console.log(Object.is(undefined, 'undefined')); // false
 
 /**
  * 五、Object.assign() 合并对象
+ * 
  * 操作数组时我们经常使用数组合并，那对象也有合并方法，那就是 assgin()
  */
 var a = {

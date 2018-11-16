@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>02-JSON-对象</title>
+</head>
+
+<body>
+
+<!--
+1. JSON.stringify(obj / arr)
+  * js 对象（数组）转换为 json 对象（数组）
+2. JSON.parse(json)
+  * json 对象（数组）转换为 js 对象（数组）
+-->
+
+    <script type="text/javascript">
+        var obj = {
+            name: 'kobe',
+            age: 39
+        };
+
+        obj = JSON.stringify(obj);
+        console.log(typeof obj); // string
+
+        obj = JSON.parse(obj);
+        console.log(obj); // {name: "kobe", age: 39}
+    </script>
+
+</body>
+
+</html>
